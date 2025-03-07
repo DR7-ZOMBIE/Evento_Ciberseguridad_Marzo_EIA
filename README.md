@@ -34,8 +34,7 @@
 
 ## Vista Previa
 
-![Screenshot Evento](![image](![image](https://github.com/user-attachments/assets/5a77a6c2-b5df-4a4f-86a7-e5918a1caf85)
-)
+![Screenshot Evento](![image](![image](https://www.gartner.es/ngw/globalassets/intl-es/information-technology/images/elementos-de-un-programa-de-ciberseguridad.png)
 
 Visita el demo en vivo: [Parámetro CTF Colombia](https://paramoctfcolombia.web.app/)
 
