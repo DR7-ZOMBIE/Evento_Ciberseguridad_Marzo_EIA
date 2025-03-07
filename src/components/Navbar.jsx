@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to="/bootcamp" className="text-gray-300 hover:text-white">Bootcamp</Link>
           <Link to="/charlas" className="text-gray-300 hover:text-white">Charlas</Link>
           <Link to="/registro" className="text-gray-300 hover:text-white">Registro</Link>
+          <Link to="/mrrobot" className="text-gray-300 hover:text-white">Mr Robot</Link>
         </div>
         {/* Botón hamburguesa para mobile */}
         <div className="md:hidden">
@@ -50,6 +51,7 @@ const Navbar = () => {
             <Link to="/bootcamp" className="block text-gray-300 hover:text-white">Bootcamp</Link>
             <Link to="/charlas" className="block text-gray-300 hover:text-white">Charlas</Link>
             <Link to="/registro" className="block text-gray-300 hover:text-white">Registro</Link>
+            <Link to="/mrrobot" className="block text-gray-300 hover:text-white">Mr Robot</Link>
           </div>
         </div>
       )}

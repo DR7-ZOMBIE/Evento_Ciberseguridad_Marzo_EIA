@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import Bootcamp from './pages/Bootcamp';
 import Charlas from './pages/Charlas';
 import RegistrationForm from './components/RegistrationForm';
-import Footer from './components/Footer';	
+import Footer from './components/Footer';
+import FsocietyAscii from './components/FsocietyAscii';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/bootcamp" element={<Bootcamp />} />
             <Route path="/charlas" element={<Charlas />} />
             <Route path="/registro" element={<RegistrationForm />} />
+            <Route path="/mrrobot" element={<FsocietyAscii />} />
           </Routes>
         </div>
         <Footer />
