@@ -46,6 +46,19 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Sección Fechas del Evento */}
+      <section className="bg-slate-200 py-8">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-slate-800">Fechas del Evento</h2>
+          <p className="text-gray-700 mb-2">
+            <span className="font-semibold">25 de marzo:</span> Bootcamp de Ciberseguridad
+          </p>
+          <p className="text-gray-700">
+            <span className="font-semibold">26 de marzo:</span> Charlas de Ciberseguridad
+          </p>
+        </div>
+      </section>
+
       {/* Sección Próximo Evento */}
       <section id="evento" className="bg-slate-100 py-16">
         <div className="container mx-auto px-4">
