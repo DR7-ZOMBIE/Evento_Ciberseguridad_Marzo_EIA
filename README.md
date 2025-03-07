@@ -1,4 +1,4 @@
-# ![Evento Logo](https://via.placeholder.com/200?text=Evento+Ciberseguridad) Evento de Ciberseguridad 2025
+# ![Evento Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG7-pmbeKxnpl15SCC2BrSp05jKSRBcrfrkw&s) Evento de Ciberseguridad 2025
 
 ¡Bienvenido al repositorio oficial del **Evento de Ciberseguridad 2025**! Este proyecto es una aplicación web profesional creada con **React**, con un diseño moderno y responsivo utilizando **Tailwind CSS** y un registro de participantes gestionado a través de **Firebase**.
 
