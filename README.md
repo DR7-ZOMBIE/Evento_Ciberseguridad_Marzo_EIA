@@ -34,7 +34,7 @@
 
 ## Vista Previa
 
-![Screenshot Evento](https://via.placeholder.com/800x400?text=Vista+Previa+del+Evento)
+![Screenshot Evento](![image](https://github.com/user-attachments/assets/acb6a563-45b5-4c44-bf18-f86cbcb0c876))
 
 Visita el demo en vivo: [Parámetro CTF Colombia](https://paramoctfcolombia.web.app/)
 
