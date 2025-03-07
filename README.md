@@ -34,7 +34,7 @@
 
 ## Vista Previa
 
-![Screenshot Evento](![image](![image](https://www.gartner.es/ngw/globalassets/intl-es/information-technology/images/elementos-de-un-programa-de-ciberseguridad.png)
+(https://www.gartner.es/ngw/globalassets/intl-es/information-technology/images/elementos-de-un-programa-de-ciberseguridad.png)
 
 Visita el demo en vivo: [Parámetro CTF Colombia](https://paramoctfcolombia.web.app/)
 
