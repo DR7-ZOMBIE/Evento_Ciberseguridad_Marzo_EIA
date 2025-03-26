@@ -8,6 +8,7 @@ import Charlas from './pages/Charlas';
 import RegistrationForm from './components/RegistrationForm';
 import Footer from './components/Footer';
 import FsocietyAscii from './components/FsocietyAscii';
+import Monologo from './pages/Monologo';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/charlas" element={<Charlas />} />
             <Route path="/registro" element={<RegistrationForm />} />
             <Route path="/mrrobot" element={<FsocietyAscii />} />
+            <Route path="/monologo" element={<Monologo />}/>
           </Routes>
         </div>
         <Footer />

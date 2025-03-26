@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -19,6 +18,7 @@ const Navbar = () => {
           <Link to="/" className="text-gray-300 hover:text-white">Inicio</Link>
           <Link to="/bootcamp" className="text-gray-300 hover:text-white">Bootcamp</Link>
           <Link to="/charlas" className="text-gray-300 hover:text-white">Charlas</Link>
+          <Link to="/monologo" className="text-gray-300 hover:text-white">Monólogo</Link>
           <Link to="/registro" className="text-gray-300 hover:text-white">Registro</Link>
           <Link to="/mrrobot" className="text-gray-300 hover:text-white">Mr Robot</Link>
         </div>
@@ -50,6 +50,7 @@ const Navbar = () => {
             <Link to="/" className="block text-gray-300 hover:text-white">Inicio</Link>
             <Link to="/bootcamp" className="block text-gray-300 hover:text-white">Bootcamp</Link>
             <Link to="/charlas" className="block text-gray-300 hover:text-white">Charlas</Link>
+            <Link to="/monologo" className="block text-gray-300 hover:text-white">Monólogo</Link>
             <Link to="/registro" className="block text-gray-300 hover:text-white">Registro</Link>
             <Link to="/mrrobot" className="block text-gray-300 hover:text-white">Mr Robot</Link>
           </div>
