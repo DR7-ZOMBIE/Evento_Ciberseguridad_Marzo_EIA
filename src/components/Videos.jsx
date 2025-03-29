@@ -47,21 +47,19 @@ const videos = [
 
 const Videos = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-900 via-gray-900 to-black flex items-center">
+    <div className="min-h-screen flex flex-col bg-white">
       {/* Contenedor principal */}
-      <div className="container mx-auto py-12 px-4 text-white">
-        <h1 className="text-5xl font-bold text-center mb-12 drop-shadow-lg">
+      <div className="flex-grow container mx-auto py-12 px-4 text-black">
+        <h1 className="text-5xl font-bold text-center mb-12 drop-shadow-sm">
           Charlas de ciberseguridad
         </h1>
         
         {/* Grid de tarjetas */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
           {videos.map((video) => (
             <div 
               key={video.id} 
-              className="bg-white/10 border border-white/10 backdrop-blur-lg 
-                         rounded-lg shadow-xl transform hover:scale-105 
-                         transition duration-300 overflow-hidden"
+              className="bg-white border border-gray-200 rounded-xl shadow-md transform hover:scale-105 transition duration-300 overflow-hidden"
             >
               {/* Contenedor del iframe */}
               <div className="relative">
@@ -71,16 +69,16 @@ const Videos = () => {
                   frameBorder="0"
                   allow="autoplay; encrypted-media"
                   allowFullScreen
-                  className="w-full aspect-video rounded-t-lg"
+                  className="w-full aspect-video"
                 ></iframe>
               </div>
-
+  
               {/* Información del video */}
               <div className="p-4">
-                <h2 className="text-xl font-semibold text-center mb-2 drop-shadow-sm">
+                <h2 className="text-xl font-semibold text-center mb-2">
                   {video.title}
                 </h2>
-                <p className="text-gray-200 text-center">
+                <p className="text-gray-600 text-center">
                   {video.description}
                 </p>
               </div>
