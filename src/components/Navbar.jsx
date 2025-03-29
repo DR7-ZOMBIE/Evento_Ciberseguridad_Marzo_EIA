@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo que redirige al home */}
         <div className="text-white font-bold text-xl">
           <Link to="/" className="hover:text-gray-300">
-            Evento Ciberseguridad
+            Evento ciberseguridad
           </Link>
         </div>
         {/* Enlaces para pantallas medianas y superiores */}
@@ -21,6 +21,7 @@ const Navbar = () => {
           <Link to="/monologo" className="text-gray-300 hover:text-white">Monólogo</Link>
           <Link to="/registro" className="text-gray-300 hover:text-white">Registro</Link>
           <Link to="/mrrobot" className="text-gray-300 hover:text-white">Mr Robot</Link>
+          <Link to="/videos" className="text-gray-300 hover:text-white">Videos</Link>
         </div>
         {/* Botón hamburguesa para mobile */}
         <div className="md:hidden">
@@ -53,6 +54,7 @@ const Navbar = () => {
             <Link to="/monologo" className="block text-gray-300 hover:text-white">Monólogo</Link>
             <Link to="/registro" className="block text-gray-300 hover:text-white">Registro</Link>
             <Link to="/mrrobot" className="block text-gray-300 hover:text-white">Mr Robot</Link>
+            <Link to="/videos" className="block text-gray-300 hover:text-white">Videos</Link>
           </div>
         </div>
       )}

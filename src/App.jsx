@@ -9,6 +9,7 @@ import RegistrationForm from './components/RegistrationForm';
 import Footer from './components/Footer';
 import FsocietyAscii from './components/FsocietyAscii';
 import Monologo from './pages/Monologo';
+import Videos from './components/Videos';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/registro" element={<RegistrationForm />} />
             <Route path="/mrrobot" element={<FsocietyAscii />} />
             <Route path="/monologo" element={<Monologo />}/>
+            <Route path="/videos" element={<Videos />}/>
           </Routes>
         </div>
         <Footer />
