@@ -22,9 +22,10 @@ const Navbar = () => {
           <Link to="/monologo" className="text-gray-300 hover:text-white">Monólogo</Link>
           <Link to="/registro" className="text-gray-300 hover:text-white">Registro</Link>
           <Link to="/mrrobot" className="text-gray-300 hover:text-white">Mr Robot</Link>
-          {/* Componente para presentaciones */}
           <Link to="/presentaciones" className="text-gray-300 hover:text-white">Presentaciones</Link>
           <Link to="/videos" className="text-gray-300 hover:text-white">Videos</Link>
+          {/* Nuevo enlace para el reto */}
+          <Link to="/challenge" className="text-gray-300 hover:text-white">Reto</Link>
         </div>
         {/* Botón hamburguesa para mobile */}
         <div className="md:hidden">
@@ -55,9 +56,10 @@ const Navbar = () => {
             <Link to="/monologo" className="block text-gray-300 hover:text-white">Monólogo</Link>
             <Link to="/registro" className="block text-gray-300 hover:text-white">Registro</Link>
             <Link to="/mrrobot" className="block text-gray-300 hover:text-white">Mr Robot</Link>
-            {/* Para mobile se puede redirigir a una ruta con el listado de presentaciones */}
             <Link to="/presentaciones" className="block text-gray-300 hover:text-white">Presentaciones</Link>
             <Link to="/videos" className="block text-gray-300 hover:text-white">Videos</Link>
+            {/* Nuevo enlace para el reto */}
+            <Link to="/challenge" className="block text-gray-300 hover:text-white">Reto</Link>
           </div>
         </div>
       )}
