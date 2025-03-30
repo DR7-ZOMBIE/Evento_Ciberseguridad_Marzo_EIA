@@ -1,27 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import moment from 'moment-timezone';
-import ClockComponent from '../components/ClockComponent.jsx';
 
 const RetoComponent = () => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    const checkTime = () => {
-      const now = moment.tz('America/Bogota');
-      const target = moment.tz('America/Bogota').set({
-        hour: 20,
-        minute: 0,
-        second: 0,
-        millisecond: 0,
-      });
-      if (now.isSameOrAfter(target)) {
-        setIsActive(true);
-      }
-    };
-
-    checkTime(); // Verifica inmediatamente al montar
-    const interval = setInterval(checkTime, 1000);
-    return () => clearInterval(interval);
+    // Para pruebas: activa el reto automáticamente
+    setIsActive(true);
   }, []);
 
   return (
@@ -34,7 +18,7 @@ const RetoComponent = () => {
       {isActive ? (
         <div className="bg-white shadow-2xl rounded-3xl p-8 max-w-lg w-full transform transition duration-500 hover:scale-105">
           <h2 className="text-3xl font-bold mb-4 text-gray-800 text-center">
-            Reto Activado
+            Reto activado
           </h2>
           <p className="mb-6 text-lg text-gray-600 text-center">
             Accede al repositorio para descargar el reto:
@@ -50,9 +34,7 @@ const RetoComponent = () => {
             </a>
           </div>
         </div>
-      ) : (
-        <ClockComponent />
-      )}
+      ) : null}
     </div>
   );
 };
